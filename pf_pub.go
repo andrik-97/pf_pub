@@ -16,7 +16,7 @@ const (
 
 // User for contract on schema user
 type User struct {
-	UserID    int       `json:"id"`
+	UserID    int       `json:"user_id"`
 	Name      string    `json:"name"`
 	Gender    string    `json:"gender"`
 	CreatedAt time.Time `json:"created_at"`
